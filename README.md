@@ -2,6 +2,12 @@
 
 A production-ready Task Management API built with Node.js, Express, PostgreSQL, and Prisma ORM. Features OTP-based authentication, JWT tokens, Redis caching, and comprehensive security measures.
 
+### 🔗 Hosted Backend URL
+https://regrip-backend-vv7f.onrender.com/
+
+### 📚 API Documentation (Swagger)
+https://regrip-backend-vv7f.onrender.com//docs
+
 ## 🚀 Tech Stack
 
 - **Runtime**: Node.js (ES Modules)
@@ -272,3 +278,4 @@ curl -X DELETE http://localhost:5000/api/tasks/TASK_ID \
 ## 📄 License
 
 This project is licensed under the ISC License.
+
