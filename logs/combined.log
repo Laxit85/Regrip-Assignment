@@ -1,0 +1,4 @@
+{"level":"error","message":"Send OTP error: redis.setEx is not a function","service":"task-management-backend","timestamp":"2026-02-13T04:01:20.218Z"}
+{"level":"error","message":"Failed to send OTP to laxitjangid2k5@gmail.com: self-signed certificate in certificate chain","service":"task-management-backend","timestamp":"2026-02-13T04:05:03.900Z"}
+{"level":"error","message":"Failed to send OTP to laxitjangid2k5@gmail.com: self-signed certificate in certificate chain","service":"task-management-backend","timestamp":"2026-02-13T04:06:18.194Z"}
+{"level":"error","message":"Send OTP error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-356a6bbdba8sm566554a91.2 - gsmtp","service":"task-management-backend","timestamp":"2026-02-13T04:08:12.741Z"}

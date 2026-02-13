@@ -1,0 +1,24 @@
+# TODO List for Task Management Backend
+
+- [x] Create package.json with all dependencies
+- [x] Create prisma/schema.prisma with models (User, Task, Activity)
+- [x] Create server.js
+- [x] Create src/app.js with Swagger integration
+- [x] Create src/config/db.js (Prisma singleton)
+- [x] Create src/config/redis.js
+- [x] Create src/config/logger.js (Winston)
+- [x] Create src/services/otp.service.js (generate, store, verify, delete OTP)
+- [x] Create src/services/token.service.js (generate JWTs, hash refresh, rotation)
+- [x] Create src/services/activity.service.js
+- [x] Create src/middleware/auth.middleware.js
+- [x] Create src/middleware/rateLimit.middleware.js
+- [x] Create src/middleware/validate.middleware.js (Joi schemas)
+- [x] Create src/middleware/error.middleware.js
+- [x] Create src/controllers/auth.controller.js (sendOTP, verifyOTP, refreshToken, logout with logging)
+- [x] Create src/controllers/task.controller.js (CRUD with logging)
+- [x] Create src/routes/auth.routes.js (with validation and rate limiting)
+- [x] Create src/routes/task.routes.js (with auth, validation, rate limiting)
+- [x] Create src/utils/response.js
+- [x] Create .env.example
+- [x] Create swagger.yaml
+- [x] Create README.md
